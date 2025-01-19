@@ -2,6 +2,7 @@ package net.sayumi.oneheart;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.sayumi.oneheart.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -11,6 +12,6 @@ public class OneHeart implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
+		ModItems.registerModItems();
 	}
 }

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "one-heart:item/raw_pink_garnet"
+  }
+}
