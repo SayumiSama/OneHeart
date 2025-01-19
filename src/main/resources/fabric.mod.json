@@ -5,11 +5,11 @@
 	"name": "One Heart",
 	"description": "Fabric Mod for playing Minecraft with just one Heart!",
 	"authors": [
-		"Me!"
+		"Sayumi"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "",
+		"sources": "https://github.com/SayumiSama/OneHeart"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/one-heart/icon.png",
