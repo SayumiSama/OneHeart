@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "one-heart",
+	"version": "${version}",
+	"name": "One Heart",
+	"description": "Fabric Mod for playing Minecraft with just one Heart!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/one-heart/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.sayumi.oneheart.OneHeart"
+		],
+		"fabric-datagen": [
+			"net.sayumi.oneheart.OneHeartDataGenerator"
+		],
+		"client" : [
+			"net.sayumi.oneheart.OneHeartClient"
+		]
+	},
+	"mixins": [
+		"one-heart.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
